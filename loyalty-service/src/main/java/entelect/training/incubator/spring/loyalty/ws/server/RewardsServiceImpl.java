@@ -1,4 +1,4 @@
-package entelect.training.incubator.spring.loyalty.server;
+package entelect.training.incubator.spring.loyalty.ws.server;
 
 import org.springframework.stereotype.Service;
 
@@ -7,7 +7,6 @@ import java.util.HashMap;
 
 @Service
 public class RewardsServiceImpl implements RewardsService {
-    
     private final HashMap<String, BigDecimal> rewardsBalanceMap = new HashMap<>();
     
     @Override

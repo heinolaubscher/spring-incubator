@@ -1,0 +1,72 @@
+[
+  {
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "passportNumber": "4568486486",
+    "email": "jane@doe.inc",
+    "phoneNumber": "+27 80 123 4567"
+  },
+  {
+    "firstName": "John",
+    "lastName": "Smith",
+    "passportNumber": "8974653468",
+    "email": "john@smith.com",
+    "phoneNumber": "+1 555 123 4567"
+  },
+  {
+    "firstName": "Sarah",
+    "lastName": "Johnson",
+    "passportNumber": "3254376567",
+    "email": "sarah@johnson.org",
+    "phoneNumber": "+44 20 123 4567"
+  },
+  {
+    "firstName": "David",
+    "lastName": "Lee",
+    "passportNumber": "4568971245",
+    "email": "david@lee.net",
+    "phoneNumber": "+86 10 123 4567"
+  },
+  {
+    "firstName": "Anna",
+    "lastName": "Kowalski",
+    "passportNumber": "8745634876",
+    "email": "anna@kowalski.pl",
+    "phoneNumber": "+48 22 123 4567"
+  },
+  {
+    "firstName": "Michael",
+    "lastName": "Brown",
+    "passportNumber": "9874561237",
+    "email": "michael@brown.co.uk",
+    "phoneNumber": "+44 20 123 4567"
+  },
+  {
+    "firstName": "Maria",
+    "lastName": "Garcia",
+    "passportNumber": "2345678976",
+    "email": "maria@garcia.es",
+    "phoneNumber": "+34 91 123 4567"
+  },
+  {
+    "firstName": "Alex",
+    "lastName": "Wong",
+    "passportNumber": "4567845629",
+    "email": "alex@wong.cn",
+    "phoneNumber": "+86 21 123 4567"
+  },
+  {
+    "firstName": "Sophie",
+    "lastName": "Dubois",
+    "passportNumber": "6789567856",
+    "email": "sophie@dubois.fr",
+    "phoneNumber": "+33 1 123 4567"
+  },
+  {
+    "firstName": "Max",
+    "lastName": "Mueller",
+    "passportNumber": "2345678978",
+    "email": "max@mueller.de",
+    "phoneNumber": "+49 30 123 4567"
+  }
+]

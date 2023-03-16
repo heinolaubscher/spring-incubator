@@ -1,4 +1,4 @@
-package entelect.training.incubator.spring.loyalty.server;
+package entelect.training.incubator.spring.loyalty.ws.server;
 
 import java.math.BigDecimal;
 

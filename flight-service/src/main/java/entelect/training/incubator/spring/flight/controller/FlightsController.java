@@ -38,19 +38,19 @@ public class FlightsController {
         return new ResponseEntity<>(savedFlight, HttpStatus.CREATED);
     }
 
-    @GetMapping()
-    public ResponseEntity<?> getFlights() {
-        LOGGER.info("Fetching all flights");
-        List<Flight> flights = this.flightsService.getFlights();
-
-        if (!flights.isEmpty()) {
-            LOGGER.trace("Found flights");
-            return new ResponseEntity<>(flights, HttpStatus.OK);
-        }
-
-        LOGGER.trace("No flights found");
-        return ResponseEntity.notFound().build();
-    }
+//    @GetMapping()
+//    public ResponseEntity<?> getFlights() {
+//        LOGGER.info("Fetching all flights");
+//        List<Flight> flights = this.flightsService.getFlights();
+//
+//        if (!flights.isEmpty()) {
+//            LOGGER.trace("Found flights");
+//            return new ResponseEntity<>(flights, HttpStatus.OK);
+//        }
+//
+//        LOGGER.trace("No flights found");
+//        return ResponseEntity.notFound().build();
+//    }
 
     @GetMapping("{id}")
     public ResponseEntity<?> getFlightById(@PathVariable Integer id) {

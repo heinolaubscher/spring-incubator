@@ -1,0 +1,26 @@
+[
+  {
+    "flightNumber": "MN123",
+    "origin": "JOHANNESBURG",
+    "destination": "CAPE_TOWN",
+    "departureTime": "2022-05-01T08:00:00",
+    "arrivalTime": "2022-05-01T10:05:00",
+    "seatsAvailable": 192,    "seatCost": 895.00
+  },
+  {
+    "flightNumber": "BA456",
+    "origin": "LONDON",
+    "destination": "NEW_YORK",
+    "departureTime": "2022-06-15T11:30:00",
+    "arrivalTime": "2022-06-15T16:45:00",
+    "seatsAvailable": 150,    "seatCost": 1299.99
+  },
+  {
+    "flightNumber": "AF789",
+    "origin": "PARIS",
+    "destination": "DUBAI",
+    "departureTime": "2022-07-01T18:20:00",
+    "arrivalTime": "2022-07-02T03:40:00",
+    "seatsAvailable": 300,    "seatCost": 1899.50
+  }
+]

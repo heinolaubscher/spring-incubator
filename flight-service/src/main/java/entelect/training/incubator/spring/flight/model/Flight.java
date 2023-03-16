@@ -1,5 +1,7 @@
 package entelect.training.incubator.spring.flight.model;
 
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import entelect.training.incubator.spring.flight.LocalDateTimeDeserializer;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -23,9 +25,11 @@ public class Flight {
     private String origin;
 
     private String destination;
-    
+
+    @JsonDeserialize(using = LocalDateTimeDeserializer.class)
     private LocalDateTime departureTime;
-    
+
+    @JsonDeserialize(using = LocalDateTimeDeserializer.class)
     private LocalDateTime arrivalTime;
     
     private Integer seatsAvailable;

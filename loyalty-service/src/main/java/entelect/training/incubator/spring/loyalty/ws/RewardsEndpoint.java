@@ -1,6 +1,6 @@
 package entelect.training.incubator.spring.loyalty.ws;
 
-import entelect.training.incubator.spring.loyalty.server.RewardsService;
+import entelect.training.incubator.spring.loyalty.ws.server.RewardsService;
 import entelect.training.incubator.spring.loyalty.ws.model.CaptureRewardsRequest;
 import entelect.training.incubator.spring.loyalty.ws.model.CaptureRewardsResponse;
 import entelect.training.incubator.spring.loyalty.ws.model.RewardsBalanceRequest;
