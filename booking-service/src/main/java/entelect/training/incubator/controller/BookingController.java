@@ -82,7 +82,7 @@ public class BookingController {
 
     @GetMapping
     public ResponseEntity<?> getBookings() {
-        LOGGER.info("Fetching all customers");
+        LOGGER.info("Fetching all bookings");
         List<Booking> bookings = bookingService.getBookings();
 
         if (!bookings.isEmpty()) {

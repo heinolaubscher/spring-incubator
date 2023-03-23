@@ -6,6 +6,7 @@ import entelect.training.incubator.spring.customer.model.SearchType;
 import entelect.training.incubator.spring.customer.service.CustomersService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -19,8 +20,10 @@ public class CustomersController {
     private final Logger LOGGER = LoggerFactory.getLogger(CustomersController.class);
 
     private final CustomersService customersService;
+    HttpHeaders headers;
 
     public CustomersController(CustomersService customersService) {
+
         this.customersService = customersService;
     }
 
@@ -69,6 +72,7 @@ public class CustomersController {
         Customer customer = customersService.searchCustomers(searchRequest);
 
         if (customer != null) {
+            LOGGER.info("Customer found");
             return ResponseEntity.ok(customer);
         }
 
